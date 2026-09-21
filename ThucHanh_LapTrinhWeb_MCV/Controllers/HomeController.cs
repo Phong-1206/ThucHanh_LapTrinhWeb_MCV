@@ -1,4 +1,4 @@
-using System.Diagnostics;
+            using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ThucHanh_LapTrinhWeb_MCV.Models;
 
@@ -19,6 +19,10 @@ namespace ThucHanh_LapTrinhWeb_MCV.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        public IActionResult Lab1()
         {
             return View();
         }
